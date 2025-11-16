@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Flow - サポート</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        
+        .question {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .answer {
+            color: #555;
+            padding-left: 20px;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .contact-section h3 {
+            margin-bottom: 20px;
+        }
+        
+        .contact-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        
+        .contact-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Morning Flow</h1>
+            <p class="subtitle">朝のルーティンを最適化するタスク管理アプリ</p>
+            
+            <h2>📱 アプリの基本的な使い方</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>1. タスクの作成</h3>
+                    <p>「＋」ボタンをタップして、朝のタスクを追加します。タスク名と予定時間を設定できます。</p>
+                </div>
+                <div class="feature">
+                    <h3>2. ルーティンの管理</h3>
+                    <p>作成したタスクをドラッグ＆ドロップで並び替えて、最適な順序に調整できます。</p>
+                </div>
+                <div class="feature">
+                    <h3>3. タイマー機能</h3>
+                    <p>各タスクにタイマーを設定して、時間管理をサポートします。</p>
+                </div>
+                <div class="feature">
+                    <h3>4. 進捗の記録</h3>
+                    <p>完了したタスクをチェックして、朝の達成度を可視化できます。</p>
+                </div>
+            </div>
+            
+            <h2>❓ よくある質問（FAQ）</h2>
+            <div class="faq-item">
+                <div class="question">Q: アプリは無料で使えますか？</div>
+                <div class="answer">A: 基本機能は無料でご利用いただけます。プレミアム機能をご利用になる場合は、アプリ内でサブスクリプションをご購入ください。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: データは同期されますか？</div>
+                <div class="answer">A: アカウントを作成してログインすることで、複数のデバイス間でデータを同期できます。ログインなしでもローカルでの使用は可能です。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: アカウントを削除するには？</div>
+                <div class="answer">A: アプリ内の設定画面から「アカウント削除」を選択してください。削除後はデータの復元はできませんのでご注意ください。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 通知が届きません</div>
+                <div class="answer">A: iOSの設定アプリから「通知」→「Morning Flow」を選択し、通知が有効になっていることをご確認ください。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: アプリがクラッシュします</div>
+                <div class="answer">A: アプリを最新版にアップデートしてください。問題が続く場合は、下記の連絡先までお問い合わせください。</div>
+            </div>
+            
+            <h2>📞 お問い合わせ</h2>
+            <div class="contact-section">
+                <h3>サポートが必要ですか？</h3>
+                <p>ご質問や不具合のご報告は、以下の方法でお気軽にお問い合わせください。</p>
+                <a href="https://x.com/Swiftteacher_" class="contact-button">X (Twitter) でメッセージ</a>
+                <a href="mailto:support@morningflow.app" class="contact-button">メールで問い合わせ</a>
+            </div>
+            
+            <h2>🔒 プライバシーポリシー</h2>
+            <p>Morning Flowは、お客様のプライバシーを重視しています。収集したデータは、サービスの提供と改善のみに使用されます。詳細なプライバシーポリシーについては、アプリ内の設定画面からご確認ください。</p>
+            
+            <h2>📝 利用規約</h2>
+            <p>本アプリのご利用にあたっては、利用規約に同意いただく必要があります。詳細な利用規約は、アプリ内の設定画面からご確認ください。</p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Morning Flow. All rights reserved.</p>
+            <p>Version 1.0</p>
+        </div>
+    </div>
+</body>
+</html>
